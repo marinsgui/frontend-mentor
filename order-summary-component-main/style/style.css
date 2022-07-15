@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;800&display=swap');
+
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    margin-left: 5px 
+}
+
+body{
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 98vh;
+}
+
+img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+main{
+    width: 375px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.summary{
+    text-align: center;
+    
+}
+
+.summary p{
+    color: hsl(224, 22%, 77%);
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    width: 300px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan img{
+    margin-right: 20px;
+}
+
+.plan h2{
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+.plan p{
+    margin-top: 0;
+    font-size: 0.8em;
+}
+
+a{
+    margin-left: 40px;
+    font-size: 12px;
+}
+
+a:hover{
+    color: hsla(245, 75%, 52%, 0.712);
+}
+
+button{
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.payment{
+    margin-top: 30px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.payment:hover{
+    background-color: hsla(245, 75%, 52%, 0.712);
+    cursor: pointer;
+}
+
+.cancel{
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+
+.cancel:hover{
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+}
